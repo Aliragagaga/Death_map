@@ -1,6 +1,1 @@
-This program, based of off League of Legends, uses Riot's Matchmaking API to collect information about a player, then
-uses classification algorithm to predict if a set of given statistics will lead to a win. It is programmed in Python
-with the libraries (REQUIRED) sklearn from scikit, Pandas, Numpy, and Cassiopeia. The user can type a set of 
-important statistics from a previous game, or attempt to find what statisitics are required for them to win games. Each classficiation model 
-is customized for the given summoner, so the user can recieve information regarding their own skill level. The next step would be to extend
-this program to physical sports like basketball. I would also like to implement a pretty looking GUI rather than just the console. 
+This program, based of off League of Legends, uses Riot's Matchmaking API to collect information about a player, then uses the logistic regression classification algorithm to predict if a set of given statistics will lead to a win. It is programmed in Python with the libraries sklearn (from scikit), Pandas, Numpy, and Cassiopeia. The user can type a set of important statistics from a previous game, or attempt to find what statisitics are required for them to win games. Each classficiation model is customized for the given summoner, so the user can recieve information regarding their own skill level. The next step would be to extend this program to physical sports like basketball. I would also like to implement a pretty looking GUI rather than just the console. 
